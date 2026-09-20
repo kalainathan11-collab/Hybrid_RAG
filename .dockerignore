@@ -1,0 +1,22 @@
+# Ignore local python virtual environments
+venv/
+.venv/
+env/
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local databases and vector storage
+chroma_db/
+.chroma/
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore IDE files
+.vscode/
+.idea/
